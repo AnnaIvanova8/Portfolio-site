@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+   <link rel="manifest" href="/site.webmanifest">
+   <title>Portfolio page</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&family=Roboto&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <header class="header" id="header" style="background-image: url('images/header/bg.jpg')">
+      <div class="header__wrapper">
+         <div class="container">
+            <nav class="menu">
+               <a class="logo" href="#header">
+                  <img class="logo__img" src="images/header/logo.svg" alt="Логотип">
+               </a>
+               <button class="menu__btn" type="button">
+                  <span class="menu__line"></span>
+                  <span class="sr-only">Open menu</span>
+               </button>
+               <ul class="menu__list">
+                  <li class="menu__item">
+                     <a class="menu__link animation" href="#about">About</a>
+                  </li>
+                  <li class="menu__item">
+                     <a class="menu__link animation" href="#skills">Skills</a>
+                  </li>
+                  <li class="menu__item">
+                     <a class="menu__link animation" href="#services">Services</a>
+                  </li>
+                  <li class="menu__item">
+                     <a class="menu__link animation" href="#works">Portfolio</a>
+                  </li>
+                  <li class="menu__item">
+                     <a class="menu__link animation" href="#reviews">Reviews</a>
+                  </li>
+                  <li class="menu__item">
+                     <a class="menu__link animation" href="#contacts">Contacts</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <div class="container">
+         <div class="header__content">
+            <h1 class="header__title">
+               Hi, I`m Mike Mikelson <span>web-developper</span>
+            </h1>
+            <a class="header__link animation" href="#works">
+               check my works
+            </a>
+         </div>
+      </div>
+   </header>
+
+   <main class="main">
+      <section class="about section" id="about">
+         <div class="container">
+            <h2 class="title">About</h2>
+            <div class="about__text">
+               <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, pariatur repellat. Vitae asperiores quisquam quidem eius impedit, optio vel voluptatum, eos culpa maiores iusto nostrum magni error alias, ipsa non! Vitae asperiores quisquam quidem eius impedit, optio vel voluptatum, eos culpa maiores iusto nostrum magni error alias, ipsa non!
+               </p>
+               <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, pariatur repellat. Vitae asperiores quisquam quidem eius impedit, optio vel voluptatum, eos culpa maiores iusto nostrum magni error alias, ipsa non! Vitae asperiores quisquam quidem eius impedit, optio vel voluptatum, eos culpa maiores iusto nostrum magni error alias, ipsa non! Vitae asperiores quisquam quidem eius impedit, optio vel voluptatum, eos culpa maiores iusto nostrum magni error alias, ipsa non!
+               </p>
+            </div>
+         </div>
+      </section>
+
+      <section class="skills section" id="skills">
+         <div class="container">
+            <h2 class="title">Skills</h2>
+            <div class="skills__info">
+               <img src="images/skills/portrait1.jpg" alt="Фотография инженера">
+               <ul class="skills__box">
+                  <li class="skills__item">
+                     <span class="skills__item-element">html</span>
+                     <div class="skills__unfill">
+                        <span style="width: 85%;">
+                           <span class="sr-only">85%</span>
+                        </span>
+                     </div>
+                  </li>
+                  <li class="skills__item">
+                     <span class="skills__item-element">css</span>
+                     <div class="skills__unfill">
+                        <span style="width: 80%;">
+                           <span class="sr-only">80%</span>
+                        </span>
+                     </div>
+                  </li>
+                  <li class="skills__item">
+                     <span class="skills__item-element">js</span>
+                     <div class="skills__unfill">
+                        <span style="width: 61%;">
+                           <span class="sr-only">61%</span>
+                        </span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+
+      <section class="services" id="services">
+         <div class="container">
+            <h2 class="title">Services</h2>
+            <ul class="services__info">
+               <li class="services__item services__item--code">
+                  <h3 class="services__subtitle">Codding</h3>
+                  <div class="services__text">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi odit dolor enim delectus soluta.</p>
+                  </div>
+               </li>
+               <li class="services__item services__item--dev">
+                  <h3 class="services__subtitle">Work with CMS</h3>
+                  <div class="services__text">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+               </li>
+               <li class="services__item services__item--chat">
+                  <h3 class="services__subtitle">Web-page maintaining</h3>
+                  <div class="services__text">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </section>
+
+      <section class="works section" id="works" >
+         <div class="container">
+            <h2 class="title">
+               My works
+            </h2>
+            <ul class="works__filter">
+               <li class="works__list">
+                  <button class="works__btn" type="button" data-filter="all">All works</button>
+               </li>
+               <li class="works__list">
+                  <button class="works__btn" type="button" data-filter=".category-a">Lendings</button>
+               </li>
+               <li class="works__list">
+                  <button class="works__btn" type="button" data-filter=".category-b">Corporates</button>
+               </li>
+               <li class="works__list">
+                  <button class="works__btn" type="button" data-filter=".category-c">E-commerce</button>
+               </li>
+            </ul>
+            <ul class="works__content">
+               <li class="works__item mix category-a">
+                  <a href="images/works/work1.jpg" data-fancybox="gallery">
+                     <img class="works__item-img" src="images/works/work1.jpg" alt="Фото вид на город">
+                  </a>
+               </li>
+               <li class="works__item mix category-a">
+                  <a href="images/works/work2.jpg" data-fancybox="gallery">
+                     <img class="works__item-img" src="images/works/work2.jpg" alt="Фото вид на реку и мост">
+                  </a>
+               </li>
+               <li class="works__item mix category-b">
+                  <a href="images/works/work3.jpg" data-fancybox="gallery">
+                     <img class="works__item-img" src="images/works/work3.jpg" alt="Фото вид на мост">
+                  </a>
+               </li>
+               <li class="works__item mix category-b">
+                  <a href="images/works/work4.jpg" data-fancybox="gallery">
+                     <img class="works__item-img" src="images/works/work4.jpg" alt="Фото вид на город">
+                  </a>
+               </li>
+               <li class="works__item mix category-c">
+                  <a href="images/works/work5.jpg" data-fancybox="gallery">
+                     <img class="works__item-img" src="images/works/work5.jpg" alt="Фото вид на пляж">
+                  </a>
+               </li>
+               <li class="works__item mix category-c">
+                  <a href="images/works/work6.jpg" data-fancybox="gallery">
+                     <img class="works__item-img" src="images/works/work6.jpg" alt="Фото вид на обрыв">
+                  </a>
+               </li>
+            </ul>
+            <div class="works__button">
+               <button class="button" type="button">Show more</button>
+            </div>
+         </div>
+      </section>
+
+      <section class="reviews section" id="reviews">
+         <div class="container">
+            <h2 class="title">Clients reviews</h2>
+            <div class="reviews__box">
+               <blockquote class="reviews__content">
+                  <img class="reviews__img" src="images/reviews/reviewer.jpg" alt="Фото клиента">
+                  <cite class="reviews__author">Mark</cite>
+                  <p class="reviews__text">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis distinctio illo saepe doloribus tempora exercitationem totam veniam beatae culpa nesciunt.
+                  </p>
+               </blockquote>
+               <a  class="reviews__video" style="background-image: url('images/reviews/videobg.jpg')" data-fancybox href="https://youtu.be/gElfIo6uw4g">
+                  <span class="sr-only">Show a video review</span>
+               </a>
+            </div>
+         </div>
+      </section>
+
+      <section class="expertise">
+         <div class="container">
+            <h2 class="sr-only">Statistics</h2>
+            <ul class="expertise__box">
+               <li class="expertise__item expertise__item--case">
+                  <h3 class="expertise__subtitle">All done works</h3>
+                  <span class="expertise__number">56</span>
+               </li>
+               <li class="expertise__item expertise__item--clients">
+                  <h3 class="expertise__subtitle">Happy clients</h3>
+                  <span class="expertise__number">23</span>
+               </li>
+               <li class="expertise__item expertise__item--coffee">
+                  <h3 class="expertise__subtitle">Cup of coffes</h3>
+                  <span class="expertise__number">477</span>
+               </li>
+               <li class="expertise__item expertise__item--responds">
+                  <h3 class="expertise__subtitle">All reviews</h3>
+                  <span class="expertise__number">48</span>
+               </li>
+            </ul>
+         </div>
+      </section> 
+
+      <section class="contacts section" id="contacts">
+         <div class="container">
+            <h2 class="title">Contacts</h2>
+            <div class="contacts__box">
+               <div class="contacts__info">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos recusandae accusamus:</p>
+                  <address>
+                     <ul class="contacts__list">
+                        <li class="contacts__item">
+                           <a class="contacts__link animation" href="tel:+380501111111">+38 (050) 111 11 11</a>
+                        </li>
+                        <li class="contacts__item">
+                           <a class="contacts__link animation" href="mailto:frontend-monster@email.com">frontend-monster@email.com</a>
+                        </li>
+                     </ul>
+
+                     <ul class="social">
+                        <li class="social__item">
+                           <a class="social__link" target="_blank"
+                              style=" background-image: url('images/contacts/instagram.svg')" href="#">
+                              <span class="sr-only">Instagram</span>
+                           </a>
+                        </li>
+                        <li class="social__item">
+                           <a class="social__link" target="_blank"
+                              style=" background-image: url('images/contacts/facebook.svg')" href="#">
+                              <span class="sr-only">Facebook</span>
+                           </a>
+                        </li>
+                        <li class="social__item">
+                           <a class="social__link" target="_blank"
+                              style="background-image: url('images/contacts/telegram.svg')" href="#">
+                              <span class="sr-only">Telegram</span>
+                           </a>
+                        </li>
+                     </ul>
+                  </address>
+               </div>
+
+               <form class="form" action="#">
+                  <div class="form__inner">
+                     <div class="form__item">
+                        <label class="form__label" for="name">Your name</label>
+                        <input class="form__input" type="text" id="name" name="name" required placeholder="Иван">
+                     </div>
+                     <div class="form__item">
+                        <label class="form__label" for="phone">Phone number</label>
+                        <input class="form__input" type="tel" id="phone" name="phone" required placeholder="+380501111111">
+                     </div>
+                  </div>
+                  <div>
+                     <label class="form__label" for="message">Your messa</label>
+                     <textarea class="form__input form__input--textarea" id="message" name="message" required placeholder="Текст вашего сообщения"></textarea>
+                  </div>
+                  <button class="button" type="submit">Send</button>
+               </form>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <footer class="footer">
+      <a class="logo" href="#header">
+         <img class="logo__img" src="images/header/logo.svg" alt="Логотип">
+      </a>
+   </footer>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/mixitup.min.js"></script>
+   <script src="js/jquery.fancybox.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>
